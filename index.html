@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG Stage 1 - Frontend Page Creation With Specific Elements</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="left">
+        <img
+          src="./images/me.jpg"
+          alt="Nsikak Essien"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+
+      <div class="right">
+        <p class="name" data-testid="slackUserName">Nsikak Essien</p>
+        <p class="week" data-testid="currentDayOfTheWeek"></p>
+        <p class="time" data-testid="currentUTCTime"></p>
+        <p class="track" data-testid="myTrack">Frontend</p>
+        <a
+          href="https://github.com/nsikakessien"
+          data-testid="githubURL"
+          target="_blank"
+          >Github</a
+        >
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
